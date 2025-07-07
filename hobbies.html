@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>More About My Hobbies</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    table img {
+      width: 80px;
+      border-radius: 8px;
+      object-fit: cover;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    /* Book cards styling */
+    .book-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .book-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .book-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .book-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .book-card h4 {
+      color: #6c5ce7;
+      font-size: 1rem;
+      margin: 5px 0;
+    }
+
+    .book-card p {
+      font-size: 0.9rem;
+      color: #555;
+      margin: 2px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="./images/pic.png" alt="Nickman's Photo" class="profile-img" />
+      <h1>Faiyaaz Ismail</h1>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#personal-info">Personal Info</a></li>
+      <li><a href="index.html#about-me">About Me</a></li>
+      <li><a href="index.html#education">Education</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="card">
+      <h2>More About My Hobbies</h2>
+
+      <h3>🎬 Watching Movies/TV Shows</h3>
+      <p>
+        I love diving into movies and TV shows, enjoying stories that entertain, inspire, and sometimes teach valuable life lessons. Here are my top 5 watched movies and tv shows:
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Poster</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Genre</th>
+            <th>Type</th>
+            <th>IMDb Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg" alt="Interstellar Poster" /></td>
+            <td>Interstellar</td>
+            <td>A team of explorers travel through a wormhole in space to ensure humanity's survival.</td>
+            <td>Science Fiction, Adventure</td>
+            <td>Movie</td>
+            <td><a href="https://www.imdb.com/title/tt0816692/" target="_blank" rel="noopener noreferrer">IMDb</a></td>
+          </tr>
+          <tr>
+            <td><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQovCe0H45fWwAtV31ajOdXRPTxSsMQgPIQ3lcZX_mAW0jXV3kH" alt="Inception Poster" /></td>
+            <td>Inception</td>
+            <td>A thief who steals corporate secrets through dream-sharing technology is given a task of planting an idea into a target's subconscious.</td>
+            <td>Action, Sci-Fi, Thriller</td>
+            <td>Movie</td>
+            <td><a href="https://www.imdb.com/title/tt1375666/" target="_blank" rel="noopener noreferrer">IMDb</a></td>
+          </tr>
+          <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/d/d8/Game_of_Thrones_title_card.jpg" alt="Game of Thrones Poster" /></td>
+            <td>Game of Thrones</td>
+            <td>Nine noble families wage war to gain control over the mythical land of Westeros.</td>
+            <td>Drama, Fantasy, Adventure</td>
+            <td>TV Show</td>
+            <td><a href="https://www.imdb.com/title/tt0944947/" target="_blank" rel="noopener noreferrer">IMDb</a></td>
+          </tr>
+          <tr>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBmR1UfShiKt6vY3J9tjztfpJvB7qM3xIQ_-TUF25_zZYzoTfz" alt="Breaking Bad Poster" /></td>
+            <td>Breaking Bad</td>
+            <td>A high school chemistry teacher turned methamphetamine manufacturer struggles with morality and crime.</td>
+            <td>Crime, Drama, Thriller</td>
+            <td>TV Show</td>
+            <td><a href="https://www.imdb.com/title/tt0903747/" target="_blank" rel="noopener noreferrer">IMDb</a></td>
+          </tr>
+          <tr>
+            <td><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTzGMepFMvymqy06LF-NsSpgYxeujNWwbXto-bc868K2bl8-zu6" alt="Dune Poster" /></td>
+            <td>Dune</td>
+            <td>Feature adaptation of Frank Herbert’s science fiction novel about a desert planet and a young hero’s journey.</td>
+            <td>Science Fiction, Adventure, Drama</td>
+            <td>Movie</td>
+            <td><a href="https://www.imdb.com/title/tt1160419/" target="_blank" rel="noopener noreferrer">IMDb</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>✈️ Travelling</h3>
+      <p>
+        Travelling clears my mind and helps me enjoy exploring new places. I've been to Saint Martin, Bandarban, Cox's Bazar, and Saudi Arabia. These trips give me fresh motivation for work and study.
+      </p>
+
+      <h3>📚 Reading</h3>
+      <p>
+        I enjoy reading both fiction and non-fiction, which broadens my knowledge and keeps my imagination alive. Here are some of my favourite books:
+      </p>
+
+      <div class="book-cards">
+        <div class="book-card">
+          <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654371463i/18144590.jpg" alt="The Pragmatic Programmer">
+          <h4>The Alchemist</h4>
+          <p>By Paulo Coelho</p>
+        </div>
+        <div class="book-card">
+          <img src="https://books.google.com.bd/books/publisher/content?id=fo5REQAAQBAJ&pg=PA1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U1JPo9J8o2UqMIQ1Se8bfLWB2EPZA&w=1280" alt="Atomic Habits">
+          <h4>Atomic Habits</h4>
+          <p>By James Clear</p>
+        </div>
+        <div class="book-card">
+          <img src="https://covers.openlibrary.org/b/id/7984916-L.jpg" alt="Clean Code">
+          <h4>Harry Potter</h4>
+          <p>By J.K. Rowling</p>
+        </div>
+        <div class="book-card">
+          <img src="https://cdn.kobo.com/book-images/2293d740-178e-4da1-a849-b11d6308fbaa/353/569/90/False/crime-and-punishment-35.jpg" alt="Deep Work">
+          <h4>Crime And Punishment</h4>
+          <p>By Fyodor</p>
+        </div>
+
+      </div>
+
+      <a href="index.html" class="more-link">← Back to Home</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Faiyaaz</p>
+  </footer>
+
+  <!-- Scroll to top button -->
+  <button id="scrollTopBtn" title="Go to top">↑</button>
+</body>
+</html>
